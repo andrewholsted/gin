@@ -25,7 +25,7 @@ program
 			program.outputHelp();
 		}
 		else{
-			directive.generate(name, options);
+			directive.generate(name);
 		}
 	});
 

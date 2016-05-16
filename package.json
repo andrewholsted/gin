@@ -1,0 +1,36 @@
+{
+	"name": "gin",
+	"description": "gin is a command line tool to help me generate files skeletons quickly",
+	"version": "0.0.1",
+	"author": {
+		"name": "Andrew Holsted",
+		"email": "andrew.holsted@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:andrewholsted/gin.git"
+	},
+	"dependencies": {
+		"async": "0.9.x",
+		"mkdirp": "0.5.x",
+		"change-case": 	"2.1.x",
+		"replace": "0.3.x",
+		"commander": "2.7.x"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/andrewholsted/gin/issues"
+	},
+	"maintainers": [
+		{
+			"name": "Andrew",
+			"email": "andrew.holsted@gmail.com"
+		}
+	],
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"bin": {
+		"gin": "index.js"
+	}
+}
